@@ -46,9 +46,9 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
    - Follow AWS documentation to configure `kubectl` for EKS.
    - Test the configuration by running `kubectl get nodes`.
 
-   \```bash
+   ```bash
    aws eks --region eu-north-1 update-kubeconfig --name omega
-   \```
+   ```
 
 ### 2. Deploy a Sample Application
 
@@ -88,7 +88,7 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
    - Create a service YAML file for the sample application.
 
-   \```yaml
+   ```yaml
    apiVersion: v1
    kind: Service
    metadata:
@@ -100,17 +100,17 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
          targetPort: 3000
      selector:
        app: omega
-   \```
+   ```
 
-   \```bash
+   ```bash
    kubectl apply -f service.yaml
-   \```
+   ```
 
    - Get the services and wait for the external IP.
 
-   \```bash
+   ```bash
    kubectl get services
-   \```
+   ```
 
 ### 3. Ingress Controller
 
@@ -119,7 +119,7 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 1. **Set up an Ingress Controller:**
    - Create an ingress YAML file for the sample application.
 
-   \```yaml
+   ```yaml
    apiVersion: networking.k8s.io/v1
    kind: Ingress
    metadata:
@@ -137,11 +137,11 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
                name: omega-service
                port:
                  number: 3000
-   \```
+   ```
 
-   \```bash
+   ```bash
    kubectl apply -f ingress.yaml
-   \```
+   ```
 
 ### 4. Horizontal Pod Autoscaler (HPA)
 
@@ -150,7 +150,7 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 1. **Implement HPA:**
    - Create an HPA configuration YAML file based on memory utilization.
 
-   \```yaml
+   ```yaml
    apiVersion: autoscaling/v2
    kind: HorizontalPodAutoscaler
    metadata:
@@ -169,11 +169,11 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
          target:
            type: Utilization
            averageUtilization: 50
-   \```
+   ```
 
-   \```bash
+   ```bash
    kubectl apply -f hpa.yaml
-   \```
+   ```
 
 ### 5. Monitoring with Datadog
 
