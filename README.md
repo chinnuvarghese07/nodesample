@@ -27,20 +27,6 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 5. **Integrate Datadog for monitoring the Kubernetes cluster and the application.**
    - **Create dashboards and alerts in Datadog for critical metrics.**
 
-### Documentation
-
-6. **Document the steps to set up the EKS cluster, deploy the application, configure Ingress, and set up HPA.**
-   - **Provide instructions for integrating Datadog and accessing monitoring dashboards.**
-
-## Evaluation Criteria
-
-- Ability to set up and manage Kubernetes clusters.
-- Proficiency in deploying applications to Kubernetes.
-- Experience with configuring Ingress Controllers and Horizontal Pod Autoscalers.
-- Understanding of monitoring with Datadog.
-- Quality of documentation and setup instructions.
-
-We look forward to reviewing your submission. Should you have any questions, please do not hesitate to contact us.
 
 ---
 
@@ -195,25 +181,12 @@ We look forward to reviewing your submission. Should you have any questions, ple
 
 1. **Integrate Datadog:**
    - Sign in to Datadog and obtain the API key.
-   - Deploy the Datadog agent to the EKS cluster using Helm or a YAML file.
    - Configure the agent with the necessary permissions and the API key.
+   - Integrate the AWS plugin in Datadog for monitoring the EKS cluster.
 
 2. **Create Dashboards and Alerts:**
    - In Datadog, create a dashboard to monitor critical metrics of the Kubernetes cluster and the sample application.
    - Set up alerts for key metrics (e.g., high memory usage, pod restarts).
-
-### 6. Documentation
-
-#### Step-by-Step Instructions
-
-1. **Document Setup and Configuration:**
-   - Provide detailed documentation for each step, including commands and configurations used.
-   - Include screenshots or command outputs where applicable.
-   - Ensure the documentation is clear and easy to follow.
-
-2. **Integrating Datadog:**
-   - Document the process of integrating Datadog with the EKS cluster.
-   - Provide instructions on how to access and use the monitoring dashboards in Datadog.
 
 ---
 
@@ -221,28 +194,27 @@ We look forward to reviewing your submission. Should you have any questions, ple
 
 ### EKS Cluster Setup
 
-![EKS Cluster Creation](file-gQDrPcUp7RQA9pQRrA7rH86m)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/3a32c2c1-2938-4203-8fd1-44f46223057d)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/743bc99d-7f7e-4203-bddf-3f37a4b62054)
+
 
 ### Node Configuration
 
-![Node Configuration](file-dYDxl8hArpF1bYbniZlb27rX)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/05b10a3a-e8b4-4273-8010-810ff296a6ff)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/596cf474-e7e6-43b5-b9cf-20361f8a7aba)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/713e08c7-1a08-40f0-bc5f-5ff362c482f7)
 
-### Sample Application Deployment
 
-![Sample Application Deployment](file-PlO0IKgfQFncgZNiQJAsTx9U)
 
-### Ingress and HPA Setup
+### Sample Application Deployment , Ingress and HPA Setup ,Pod and Service Status
 
-![Ingress and HPA Setup](file-ezaS7JwzyhI9TGchTTnesUHy)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/0ba71b0a-4463-4699-9d26-e9b739104042)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/5297431f-db24-47f5-9250-4f715bc807ce)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/7ae91175-30ad-44a2-b6fc-c32136711bc7)
 
-### Pod and Service Status
-
-![Pod and Service Status](file-bkJpSpxHDAyAJ13kSbkk8nAg)
 
 ### Application Access
 
-![Application Access](file-9OO6N8HE59VHaLV1eEAj2gbo)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/e6458ae5-5508-4a09-b53b-e90ddbfa41aa)
 
----
 
-This completes the test assignment documentation. If you encounter any issues or have questions, please do not hesitate to contact us. Good luck!
