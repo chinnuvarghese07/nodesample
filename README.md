@@ -231,17 +231,14 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
 ### Datadog
 
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/0cef7bd6-f4c7-474e-8868-a28f666b9be0)
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/95b7b820-930e-40f2-a856-878d8cc6dba8)
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/fe075608-34bf-41f8-86c5-1b97c2b899d6)
 
 
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/eff0e97d-ee57-4cec-b81b-340dea5742c8)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/8d6710b9-774e-40fa-a4e3-278990479185)
 
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/c8c045e5-283b-45c6-ad09-a9d0147ca7ce)
-
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/dd8e21ce-bf57-43c6-8284-ccee2e8ddc92)
 
