@@ -183,6 +183,8 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
    - Sign in to Datadog and obtain the API key.
    - Configure the agent with the necessary permissions and the API key.
    - Integrate the AWS plugin in Datadog for monitoring the EKS cluster.
+     ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/24483705-6b0e-4c01-9ff7-29fda11d3022)
+
 
 2. **Create Dashboards and Alerts:**
    - In Datadog, create a dashboard to monitor critical metrics of the Kubernetes cluster and the sample application.
@@ -192,16 +194,21 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
 ## Screenshots and Outputs
 
+
 ### EKS Cluster Setup
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/3a32c2c1-2938-4203-8fd1-44f46223057d)
+
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/743bc99d-7f7e-4203-bddf-3f37a4b62054)
+
 
 
 ### Node Configuration
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/05b10a3a-e8b4-4273-8010-810ff296a6ff)
+
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/596cf474-e7e6-43b5-b9cf-20361f8a7aba)
+
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/713e08c7-1a08-40f0-bc5f-5ff362c482f7)
 
 
@@ -209,12 +216,22 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 ### Sample Application Deployment , Ingress and HPA Setup ,Pod and Service Status
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/0ba71b0a-4463-4699-9d26-e9b739104042)
+
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/5297431f-db24-47f5-9250-4f715bc807ce)
+
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/7ae91175-30ad-44a2-b6fc-c32136711bc7)
+
 
 
 ### Application Access
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/e6458ae5-5508-4a09-b53b-e90ddbfa41aa)
 
+
+
+### Datadog
+
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/0cef7bd6-f4c7-474e-8868-a28f666b9be0)
+
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/95b7b820-930e-40f2-a856-878d8cc6dba8)
 
