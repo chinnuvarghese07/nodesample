@@ -204,10 +204,11 @@ spec:
 
 ```bash
 DD_API_KEY=XXXX1692457977410291e0804814371f DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"
+
 ```
 
      
-     ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/24483705-6b0e-4c01-9ff7-29fda11d3022)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/24483705-6b0e-4c01-9ff7-29fda11d3022)
 
 
 2. **Create Dashboards and Alerts:**
