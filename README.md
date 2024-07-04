@@ -236,9 +236,8 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/fe075608-34bf-41f8-86c5-1b97c2b899d6)
 
-
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/8d6710b9-774e-40fa-a4e3-278990479185)
-
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/2fbf9863-84fb-4e7f-bf40-55a2053cb305)
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/c8c045e5-283b-45c6-ad09-a9d0147ca7ce)
 
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/483395ef-efbb-41f6-be02-f7098689e8d9)
