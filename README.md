@@ -58,7 +58,7 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
    - Create a deployment YAML file for a sample application (e.g., nginx).
    - Apply the deployment using `kubectl apply -f deployment.yaml`.
 
-   \```yaml
+   ```yaml
    apiVersion: apps/v1
    kind: Deployment
    metadata:
@@ -80,11 +80,11 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
            image: chinnuworkspace/omega:latest
            ports:
            - containerPort: 3000
-   \```
+   ```
 
-   \```bash
+   ```bash
    kubectl apply -f deployment.yaml
-   \```
+   ```
 
    - Create a service YAML file for the sample application.
 
