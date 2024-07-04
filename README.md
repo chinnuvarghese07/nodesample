@@ -187,7 +187,8 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
 
 
-```apiVersion: datadoghq.com/v2alpha1
+```
+apiVersion: datadoghq.com/v2alpha1
 kind: DatadogAgent
 metadata:
   name: datadog
@@ -198,9 +199,14 @@ spec:
     credentials:
       apiSecret:
         secretName: datadog-secret
-        keyName: api-key```
+        keyName: api-key
+```
 
-```DD_API_KEY=XXXX1692457977410291e0804814371f DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"```
+```bash
+DD_API_KEY=XXXX1692457977410291e0804814371f DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"
+```
+
+     
      ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/24483705-6b0e-4c01-9ff7-29fda11d3022)
 
 
