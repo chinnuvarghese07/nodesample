@@ -217,6 +217,12 @@ DD_API_KEY=XXXX1692457977410291e0804814371f DD_SITE="us5.datadoghq.com" bash -c 
 
 ---
 
+
+# Note:
+The cluster will be deleted as it is for test purposes.
+The free version of Datadog does not support container monitoring.
+
+
 ## Screenshots and Outputs
 
 
