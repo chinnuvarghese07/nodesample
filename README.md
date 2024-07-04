@@ -181,8 +181,26 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
 1. **Integrate Datadog:**
    - Sign in to Datadog and obtain the API key.
+   - Deploy the Datadog agent to the EKS cluster using Helm or a YAML file.
    - Configure the agent with the necessary permissions and the API key.
    - Integrate the AWS plugin in Datadog for monitoring the EKS cluster.
+
+
+
+```apiVersion: datadoghq.com/v2alpha1
+kind: DatadogAgent
+metadata:
+  name: datadog
+spec:
+  global:
+    clusterName: <CLUSTER_NAME>
+    site: <DATADOG_SITE>
+    credentials:
+      apiSecret:
+        secretName: datadog-secret
+        keyName: api-key```
+
+```DD_API_KEY=XXXX1692457977410291e0804814371f DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"```
      ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/24483705-6b0e-4c01-9ff7-29fda11d3022)
 
 
@@ -234,10 +252,6 @@ To evaluate the candidate's experience with Kubernetes, including deployment, sc
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/95b7b820-930e-40f2-a856-878d8cc6dba8)
 
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/fe075608-34bf-41f8-86c5-1b97c2b899d6)
-
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/2fbf9863-84fb-4e7f-bf40-55a2053cb305)
-
-![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/c8c045e5-283b-45c6-ad09-a9d0147ca7ce)
+![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/9b096b8b-5d64-4eeb-8201-b2c5716cf1a7)
 
 ![image](https://github.com/chinnuvarghese07/nodesample/assets/11041542/483395ef-efbb-41f6-be02-f7098689e8d9)
